@@ -5,6 +5,8 @@ This small python scripts logs into an email account, downloads any unread email
 
 This works best if you set up an indepentent email, that just this program logs into, otherwise you could end up having emails deleted.  I also don't know how securely the passwords are transmitted over the internet, when logging into the server.
 
+NOTE: The login password to your email server is left completely unencrypted within the script.
+
 To get the script working:
   1.  pip install imap_tools, smtplib, ssl (might be others as well, see list of libraries)
   2.  Set the variables on lines 32 to 36
